@@ -7,7 +7,7 @@ In this assignment, you will implement the following tasks:
 # PROGRAM DESCRIPTION
 Euclidean division is the process of division of two integers, which produces a quotient and a remainder smaller than the divisor. Its main property is that the quotient and remainder exist and are unique.  
 
-Given two integers `a` and `b`, with `b ≠ 0`, there exist unique integers `q` and `r` such that:  
+Given two integers $a$ and $b$, with $b \neq 0$, there exist unique integers $q$ and $r$ such that:  
 
 $$
 a = bq + r
@@ -19,13 +19,13 @@ $$
 0 \leq r < |b|
 $$
 
-where `|b|` denotes the absolute value of `b`.  
+where $|b|$ denotes the absolute value of $b$.  
 
 The four integers that appear in this theorem have been given names:  
-- `a` is called the **dividend**.  
-- `b` is called the **divisor**.  
-- `q` is called the **quotient**.  
-- `r` is called the **remainder**.  
+- $a$ is called the **dividend**.  
+- $b$ is called the **divisor**.  
+- $q$ is called the **quotient**.  
+- $r$ is called the **remainder**.  
 
 # PROGRAM SPECIFICATIONS
 Create a new class called `EuclideanDivision`.  
@@ -56,10 +56,7 @@ In the `main` method:
 - Declare four `int` variables with the following identifiers: `dividend`, `divisor`, `quotient`, and `remainder`.  
 - Prompt the user to enter a value for `dividend` and `divisor`.  
 - Use the **quotient** (`/`) and **modulo** (`%`) operators to find the values of `quotient` and `remainder`.  
-- Display the quotient and remainder in the form:  
-  ```
-  a = bq + r
-  ```
+- Display the quotient and remainder in the form $a = bq + r$.
 
 # SAMPLE OUTPUT
 ```
