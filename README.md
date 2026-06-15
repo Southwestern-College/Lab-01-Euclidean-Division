@@ -1,5 +1,5 @@
 # Lab 01: Euclidean Division
-![Pizza party](pizza-party.png)
+![Pizza party](.assets/pizza-party.png)
 
 ## OBJECTIVES
 In this assignment, you will implement the following tasks:  
