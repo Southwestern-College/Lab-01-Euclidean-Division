@@ -1,33 +1,73 @@
-# Lab 00: Lab_Name
+# Lab 01: Euclidean Division
+[Pizza party](pizza-party.png)
+## OBJECTIVES
+In this assignment, you will implement the following tasks:  
+- Read data from the keyboard.  
+- Use arithmetic operators.  
+- Display output in a user-friendly manner.  
 
-## Objectives
-- Objective
+## PROGRAM DESCRIPTION
+Euclidean division is the process of division of two integers, which produces a quotient and a remainder smaller than the divisor. Its main property is that the quotient and remainder exist and are unique.  
 
-## Program Description
-Lorem ipsum.
+Given two integers $a$ and $b$, with $b \neq 0$, there exist unique integers $q$ and $r$ such that:  
 
-## Instructions
-1. Instruction
+$$
+a = bq + r
+$$
 
-## Program Specifications
-- Specification
+and  
 
-## Sample Code
+$$
+0 \leq r < |b|
+$$
+
+where $|b|$ denotes the absolute value of $b$.  
+
+The four integers that appear in this theorem have been given names:  
+- $a$ is called the **dividend**.  
+- $b$ is called the **divisor**.  
+- $q$ is called the **quotient**.  
+- $r$ is called the **remainder**.  
+
+## PROGRAM SPECIFICATIONS
+1. Create a new class called `EuclideanDivision`.  
+2. Consider the example below:  
 ```java
-public class ClassName {
+import java.util.Scanner;
+
+public class Example {
     public static void main(String[] args) {
-        System.out.println("output");
+        // Scanner object to receive keyboard input
+        Scanner input = new Scanner(System.in);
+        
+        // Prompt the user to enter an integer
+        System.out.print("Enter an integer: ");
+        int num = input.nextInt();
+
+        // Display the number
+        System.out.println("The number is: " + num);
+
+        // Close the Scanner object for reading
+        input.close();
     }
 }
 ```
+Modify the example program to prompt the user to enter the **dividend** and **divisor** and perform **Euclidean division**.  
+3. In the `main` method:  
+- Declare four `int` variables with the following identifiers: `dividend`, `divisor`, `quotient`, and `remainder`.  
+- Prompt the user to enter a value for `dividend` and `divisor`.  
+- Use the **quotient** (`/`) and **modulo** (`%`) operators to find the values of `quotient` and `remainder`.  
+- Display the quotient and remainder in the form $a = bq + r$.
 
-## Sample Output
+## SAMPLE OUTPUT
 ```
-output
+Euclidean Division
+Enter the dividend: 14
+Enter the divisor: 5
+14 = 2 * 5 + 4
 ```
 
-## Coding Standards
-- Follow the program specifications exactly.
+## CODING STANDARDS
 - Use meaningful identifiers and follow Java naming conventions.
 - Remove all auto-generated comments and unused code.
 - Document code using [JavaDoc](https://www.baeldung.com/javadoc), including:
