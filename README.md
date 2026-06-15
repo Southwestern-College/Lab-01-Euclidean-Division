@@ -1,5 +1,6 @@
 # Lab 01: Euclidean Division
-[Pizza party](pizza-party.png)
+![Pizza party](pizza-party.png)
+
 ## OBJECTIVES
 In this assignment, you will implement the following tasks:  
 - Read data from the keyboard.  
@@ -58,6 +59,9 @@ Modify the example program to prompt the user to enter the **dividend** and **di
 - Prompt the user to enter a value for `dividend` and `divisor`.  
 - Use the **quotient** (`/`) and **modulo** (`%`) operators to find the values of `quotient` and `remainder`.  
 - Display the quotient and remainder in the form $a = bq + r$.
+4. Commit and push your changes.
+
+Adhere to all coding standards.
 
 ## SAMPLE OUTPUT
 ```
