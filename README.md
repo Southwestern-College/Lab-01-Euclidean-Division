@@ -69,7 +69,7 @@ Adhere to all coding standards.
 Euclidean Division
 Enter the dividend: 14
 Enter the divisor: 5
-14 = 2 * 5 + 4
+14 = 5 * 2 + 4
 ```
 
 ## CODING STANDARDS
