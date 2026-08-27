@@ -53,13 +53,13 @@ public class Example {
     }
 }
 ```
-Modify the example program to prompt the user to enter the **dividend** and **divisor** and perform **Euclidean division**.  
-3. In the `main` method:  
-- Declare four `int` variables with the following identifiers: `dividend`, `divisor`, `quotient`, and `remainder`.  
-- Prompt the user to enter a value for `dividend` and `divisor`.  
-- Use the **quotient** (`/`) and **modulo** (`%`) operators to find the values of `quotient` and `remainder`.  
-- Display the quotient and remainder in the form $a = bq + r$.
+Modify the example program to prompt the user to enter the **dividend** and **divisor** and perform **Euclidean division**.
 
+3. In the `main` method:
+   1. Declare four `int` variables with the following identifiers: `dividend`, `divisor`, `quotient`, and `remainder`.
+   2. Prompt the user to enter a value for `dividend` and `divisor`.
+   3. Use the **quotient** (`/`) and **modulo** (`%`) operators to find the values of `quotient` and `remainder`.
+   4. Display the quotient and remainder in the form $a = bq + r$.
 4. Commit and push your changes.
 
 Adhere to all coding standards.
